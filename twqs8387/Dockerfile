@@ -6,6 +6,6 @@ RUN \
   echo "echo 'Executing xhost +'" >> ~/.bashrc &&\
   echo "xhost +" >> ~/.bashrc
 
-CMD x11vnc -forever -nopw -create
+CMD x11vnc -forever -nopw -create -display :20
 
 EXPOSE 5900
