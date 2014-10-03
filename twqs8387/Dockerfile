@@ -2,7 +2,7 @@ FROM ubuntu:12.04
 
 RUN \
   apt-get update &&\
-  apt-get install -y x11vnc xvfb firefox &&\
+  apt-get install -y x11vnc xvfb firefox
 
 CMD x11vnc -forever -nopw -create
 
