@@ -10,6 +10,6 @@ RUN \
 
 CMD x11vnc -forever -nopw -create
 
-VOLUMES ["/tmp/.X11-unix"]
-
 EXPOSE 5900
+
+VOLUMES ["/tmp/.X11-unix"]
