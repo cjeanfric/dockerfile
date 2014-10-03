@@ -6,4 +6,3 @@ RUN \
   apt-get clean                                 &&\
   echo "gem: --no-document" > ~/.gemrc          &&\
   rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
-
